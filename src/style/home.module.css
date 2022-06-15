@@ -1,0 +1,51 @@
+.home_container {
+    padding-top: 3.5em;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-inline: 1em;
+    padding-bottom: 3.5em;
+    height: 100%;
+}
+
+.home_container + .action_btn button {
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+}
+
+.home_container + .action_btn button svg {
+    font-size: 1.3em;
+}
+
+.home_container + .action_btn {
+    display: flex;
+    align-items: center; 
+    margin: auto;
+    padding: 4em;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.home_container + .action_btn > button:first-child {
+    border-radius: 2em;
+    background-color: #28ae61;
+    padding: 0.5em 1em;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home_container + .action_btn > button:nth-child(2) {
+    line-height: 1;
+}
+.home_container + .action_btn > button:nth-child(2) svg {
+    color: var(--text-color);
+}

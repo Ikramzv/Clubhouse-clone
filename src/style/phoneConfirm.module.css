@@ -1,0 +1,87 @@
+.phoneConfirmContainer {
+    padding: 3em 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f0e4;
+    position: relative;
+}
+
+.phoneConfirmContainer h1 {
+    font-size: 1.3em;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0;
+    color: var(--text-color);
+}
+
+
+.phoneConfirmContainer p {
+    font-size: 0.775em;
+    font-weight: 400;
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 270px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.phoneConfirmContainer p > span {
+    font-weight: 500;
+}
+
+.backBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.backBtn img {
+    width: 40px;
+}
+
+.notificationContainer {
+    border-radius: 1em;
+    background-color: white;
+    box-shadow: 0 0 5px 0 #ccc;
+}
+
+.notificationContainer h3 {
+    font-size: 1em;
+    font-weight: 500;
+    color: #000;
+    width: 100%;
+    margin-bottom: .3em;
+}
+.notificationContainer p {
+    font-size: 0.825em;
+    font-weight: 500;
+    line-height: 1.3;
+    margin: auto;
+}
+
+.action_btn {
+    position: relative;
+}
+
+.action_btn a {
+    display: inline-block;
+    width: 50%;
+    padding: .5em;
+    border-top: 1px solid #ccc;
+    color: var(--btnBgColor);
+}
+
+.action_btn > a:first-child {
+    border-right: 1px solid grey;
+}
+
+.action_btn img {
+    position: absolute;
+    bottom: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+}

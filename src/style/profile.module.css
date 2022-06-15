@@ -1,0 +1,89 @@
+.profileContainer {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 .8em;
+    padding-top: 5em;
+}
+
+.actionBtn svg {
+    font-size: 2em;
+    margin-right: 1em; 
+}
+
+.actionBtn svg:last-child {
+    margin-right: 0;
+}
+
+.profileImg {
+    width: 80px;
+    border-radius: 2.2em;
+}
+
+.profileContainer h4 {
+    font-size: 1.5em;
+    color: var(--text-color);
+    margin: .5em 0 .1em 0;
+    line-height: 1;
+}
+
+.profileContainer p {
+    font-size: 1.1em;
+    color: #aaa;
+    margin: 0;
+}
+
+.profileContainer .follow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+.profileContainer .follow p:first-child {
+    margin-right: 2.5em;
+}
+
+.profileContainer .follow p span {
+    font-weight: 400;
+    color: var(--text-color);
+    margin-right: .2em;
+    font-size: 1.3em;
+}
+
+.profileContainer button {
+    border: none;
+    background-color: transparent;
+    color: var(--btnBgColor);
+    margin-bottom: 2.5em;
+}
+
+.nominated {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.profileContainer .nominated > img {
+    width: 40px;
+    border-radius: 1em;
+    margin-right: .5em;
+}
+
+.nominated p {
+    font-size: .975em;
+    line-height: 1.4;
+}
+
+.nominated p span {
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.addMemberBtn {
+    background-color: lightblue !important;
+    margin-bottom: 0 !important;
+    padding: .8em 1em;
+    border-radius: 1em;
+    line-height: .5;
+    margin-top: .3em;
+}

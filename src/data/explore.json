@@ -1,0 +1,66 @@
+{
+    "people": [
+        {
+            "title": "April Underwood",
+            "description": " CEO and Founder , local Laboratory. Co - Founder Isac Akad"
+        },
+        {
+            "title": "Helena Price Hambrecht",
+            "description": " Founder @drinkaus / Twitter @helena"
+        },
+        {
+            "title": "James Cham",
+            "description": "@jamescham"
+        }
+    ],
+    "conservation": [
+        {
+            "title": "Tech",
+            "description": "Venture Capital , DTC , AI , SaaS , Android , IOS"
+        },
+        {
+            "title": "Languages",
+            "description": "English , Turkish , Japanese , Spanish"
+        },
+        {
+            "title": "Places",
+            "description": "Center , Town hall , Big Ben , Eifell Tower"
+        },
+        {
+            "title": "Identity",
+            "description": "Venture Capital , DTC , AI , SaaS , Android , IOS"
+        },
+        {
+            "title": "Sports",
+            "description": "Football , Basketball , Volleyball , Hockey"
+        },
+        {
+            "title": "Life",
+            "description": "Venture Capital , DTC , AI , SaaS , Android , IOS"
+        },
+        {
+            "title": "Hanging Out",
+            "description": "Venture Capital , DTC , AI , SaaS , Android , IOS"
+        },
+        {
+            "title": "Faith",
+            "description": "Venture Capital , DTC , AI , SaaS , Android , IOS"
+        },
+        {
+            "title": "World Affairs",
+            "description": "Venture Capital , DTC , AI , SaaS , Android , IOS"
+        },
+        {
+            "title": "Entertainment ",
+            "description": "Venture Capital , DTC , AI , SaaS , Android , IOS"
+        },
+        {
+            "title": "Gifts ",
+            "description": "Venture Capital , DTC , AI , SaaS , Android , IOS"
+        },
+        {
+            "title": "Swim",
+            "description": "Venture Capital , DTC , AI , SaaS , Android , IOS"
+        }
+    ]
+}

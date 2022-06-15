@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "title": "GOOD TIME",
+        "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+        "members": [
+            {
+                "first_name": "Sriram",
+                "last_name": "Krishnan"
+            },
+            {
+                "first_name": "Aarthi",
+                "last_name": "Ramamurthy"
+            },
+            {
+                "first_name": "Steven",
+                "last_name": "Sinofsky"
+            },
+            {
+                "first_name": "Paul",
+                "last_name": "Davison"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "GOOD MEMORIES",
+        "sub_title": "Kevin Harris x Email Nava on Good Time Show",
+        "members" : [
+                {
+                    "first_name": "John",
+                    "last_name": "Kriss"
+                },
+                {
+                    "first_name": "Ali",
+                    "last_name": "Ramamurthy"
+                },
+                {
+                    "first_name": "Isac",
+                    "last_name": "Sinofsky"
+                },
+                {
+                    "first_name": "Danny",
+                    "last_name": "Davison"
+                }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "HAVE FUN",
+        "sub_title": "Henry Harris x Email Nava on Good Time Show",
+        "members" : [
+                {
+                    "first_name": "Andy",
+                    "last_name": "Kane"
+                },
+                {
+                    "first_name": "Anna",
+                    "last_name": "Ramamurthy"
+                },
+                {
+                    "first_name": "Steve",
+                    "last_name": "Sinofsky"
+                },
+                {
+                    "first_name": "Pol",
+                    "last_name": "Davison"
+                }
+        ]
+    }
+]

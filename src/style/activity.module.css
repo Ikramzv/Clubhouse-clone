@@ -1,0 +1,44 @@
+.activityContainer {
+    padding-top: 4em;
+    background-color: #fff;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.activityImg {
+    width: 45px;
+    border-radius: 1em;
+    margin-right: 1em;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+    padding: .5em 1em;
+}
+
+.activity > div:nth-child(3) {
+    flex: 1;
+    text-align: right;
+}
+
+.activity > div:nth-child(3) span {
+    color: rgba(204, 204, 204, 0.829);
+}
+
+.activity > div p span {
+    font-weight: 500;
+    margin: 0;
+    font-size: .975em;
+}
+
+.activity > div p {
+    width: 300px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.activity .activityText > p + p {
+    font-weight: 500;
+    color: var(--text-color);
+}

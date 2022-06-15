@@ -1,0 +1,149 @@
+.exploreContainer {
+    padding: 0 .5em;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 5.2em;
+}
+
+.exploreContainer h6 {
+    font-size: .975em;
+    font-weight: 500;
+    color: rgb(160, 159, 159);
+    margin: 1.5em 0 0.5em;
+}
+
+.peopleContainer {
+    position: relative;
+    background-color: #fff;
+    margin: 0 -.5em;
+    padding: .5em .5em 1.5em .5em;
+}
+
+.peopleContainer > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .5em;
+}
+
+.peopleContainer > div button {
+    background-color: transparent;
+    border: 2px solid var(--btnBgColor);
+    border-radius: 2em;
+    color: var(--btnBgColor);
+    font-weight: 400;
+    font-size: 1em;
+    padding: .1em 1.2em;
+}
+
+.peopleContainer > div > div {
+    margin-bottom: 1em;
+}
+
+.peopleContainer > div > div img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.peopleContainer > div > div > div h5  {
+    color: var(--text-color);
+    font-size: 1.1em;
+    margin-bottom: .2em;
+}
+.peopleContainer > div > div > div p  {
+    color: var(--text-color);
+    font-size: .9em;
+    width: 173px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-height: 1.15;
+    margin: 0;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-weight: 400;
+    
+}
+
+.showMore {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f4f4f4 !important;
+    color: #aaa !important;
+    border: none !important;
+    box-shadow: 0 2px 3px #ccc;
+    font-weight: 500;
+}
+
+.showMore span {
+    font-size: .775em !important;
+    margin-top: .4em;
+    margin-left: .5em;
+}
+
+
+
+.conversationCard {
+    background-color: white;
+    border-radius: .5em;
+    padding: .5em;
+    box-shadow: 0 2px 3px 1px #ccc;
+}
+
+.conversationCard h6 {
+    color: var(--text-color);
+    font-size: 1em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.conversationCard h6 span {
+    margin-right: .4em;
+}
+
+.conversationCard p {
+    margin: 0;
+    color: #aaa;
+    line-height: 1.2;
+    font-size: .8em;
+}
+
+.Header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #f2f0e4;
+    z-index: 100;
+    padding: .5em;
+}
+
+.head {
+    text-align: center;
+    padding: .5em .5em;
+    position: relative;
+    margin-bottom: .5em;
+}
+
+.head a {
+    margin-bottom: .7em;
+}
+
+.head h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.head img {
+    width: 23px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,14 @@
+{
+    "members" : [
+        {
+            "first_name": "Danny",
+            "last_name": "Dumansky",
+            "photo": "/images/user1.jpg"
+        },
+        {
+            "first_name": "Muhammed",
+            "last_name": "Ali",
+            "photo": "/images/user2.webp"
+        }
+    ]
+}
