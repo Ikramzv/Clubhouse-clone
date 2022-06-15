@@ -9,10 +9,6 @@ export default function Header() {
                 <img src="/images/icons8-search-32.png" alt="search"  />
             </Link>
             <div className={style.nav_items}>
-                <Link to={'/friends_invite'}> 
-                    <img src="/images/icons8-invite-32.png" alt="invite" />
-                </Link>
-
                 <Link to={'/upcoming'}> 
                     <img src="/images/icons8-calendar-32.png" alt="" />
                 </Link>

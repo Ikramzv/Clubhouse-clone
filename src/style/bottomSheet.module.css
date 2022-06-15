@@ -76,3 +76,92 @@
     align-items: center;
     margin: auto;
 }
+
+
+/* On Upcoming page bottom sheet */
+
+.sheetContainer {
+    padding: 0;
+    height: 100%;
+}
+
+.sheetContainer > p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 0.15em;
+    color: #aaa;
+}
+
+.sheetContent {
+    border-bottom: .6px solid grey;
+    padding-bottom: 1em;
+    margin-bottom: .5em;
+}
+
+.sheetContainer p svg {
+    font-size: 1.5em;
+    color: black;
+    cursor: pointer;
+}
+
+.sheetContent p {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.sheetContent p:first-child {
+    font-weight: 500;
+    color: black;
+    font-size: 1.15em;
+    margin: 0;
+    margin-bottom: .3em;
+}
+
+.sheetContent .imgContainer img {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sheetContent p:not(:first-child) {
+    margin-bottom: 0;
+}
+
+.joinBtn {
+    border: none;
+    padding: .5em 1.5em;
+    border-radius: 2em;
+    background-color: #28ae61;
+    color: #fff;
+    font-weight: 500;
+    position: sticky;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: .6em;
+    border-bottom: 1px solid grey;
+    padding-bottom: .5em;
+}
+
+.social span {
+    display: flex;
+    align-items: center;
+    color: var(--btnBgColor);
+    margin-left: .3em;
+    cursor: pointer;
+}
+
+.social span svg {
+    margin-right: .3em;
+}
+
+.social span:hover {
+    color: lightblue;
+}

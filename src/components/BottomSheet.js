@@ -3,6 +3,7 @@ import SwipeableBottomSheet from 'react-swipeable-bottom-sheet'
 import style from '../style/bottomSheet.module.css'
 import StartRoom from "./BottomSheets/StartRoom";
 import NewRoom from "./BottomSheets/NewRoom";
+import UpcomingSheet from "./BottomSheets/upcomingSheet";
 
 export default function BottomSheet(props) {
     return (
@@ -30,7 +31,12 @@ export default function BottomSheet(props) {
                             setSheetVisible = {(item) => {
                             props.setSheetVisible(item)
                             props.setItemsVisible(true)
-                    }}  /> : '' }
+                    }}  /> : props.sheetTitle == 'upcoming' ? <UpcomingSheet 
+                             sheetVisible = {() => {
+                                
+                             }}  
+
+                        /> : '' }
             </div>
         </SwipeableBottomSheet>
     )
