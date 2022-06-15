@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "clubhouse-clone-43c86"
-  }
+    "default": "clubhouse-clone-866ff",
+    "hosting": "clubhouse-clone-866ff"
+  },
+  "targets": {}
 }
